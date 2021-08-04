@@ -1,0 +1,103 @@
+* {
+  font-family: 8pt "Segoe UI";
+}
+
+
+#parent_left {
+  background-color: rgb(81, 50, 254);
+  color: rgb(238, 238, 238);
+}
+
+#widget_side {
+  background-color: rgb(226, 226, 226);
+}
+
+QPushButton {
+  background-color: rgb(81, 50, 254);
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: rgb(244, 244, 244);
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgb(46, 14, 230);
+}
+
+#widget_side QPushButton {
+  padding: 8px;
+}
+
+QLineEdit[readOnly="true"],
+QLineEdit:disabled {
+  font-weight: bold;
+  color: rgb(41, 38, 195);
+}
+
+
+
+QScrollBar {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 80);
+}
+
+QScrollBar:horizontal {
+  height: 10px;
+}
+
+QScrollBar:vertical {
+  width: 10px;
+}
+
+QScrollBar::handle {
+  background: rgba(254, 97, 50, 200);
+  border-radius: 5px;
+}
+
+QScrollBar::handle:hover {
+  background: rgb(81, 50, 254);
+}
+
+QScrollBar::handle:vertical {
+  min-height: 20px;
+}
+
+QScrollBar:left-arrow,
+QScrollBar::right-arrow,
+QScrollBar::add-page,
+QScrollBar::sub-page {
+  border: 0px;
+}
+
+QScrollBar::add-line,
+QScrollBar::sub-line {
+  width: 0px;
+}
+
+QScrollArea {
+  background-color: transparent;
+}
+
+QTableWidget, QPushButton, QRadioButton {
+  outline: 0;
+}
+
+QTableWidget::item:selected,
+QListWidget::item:selected {
+  background-color: rgb(81, 50, 254);
+  color: #fff;
+}
+
+QLabel {
+  color: rgb(11, 22, 33);
+}
+
+
+#tips {		
+  background-color: white;	
+  color: rgb(81, 50, 254);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 3px solid rgb(81, 50, 254);
+  font: 400 8pt "Segoe UI";
+}
